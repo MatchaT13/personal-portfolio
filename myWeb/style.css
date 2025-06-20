@@ -2,8 +2,9 @@ body{
     margin: 0px;
 }
 main{
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid rgb(189, 148, 78);
 }
 .navbar ul{
     list-style-type: none;
