@@ -4,10 +4,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        main{
+            display: grid;
+            grid-template-rows: 1fr 1fr 1fr;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            gap: 10px;
+        }
+        .head{
+            grid-row: 2 / 3;
+            grid-column: 2 / 4;
+        }
+       img{
+        grid-row: 2 / 3;
+        grid-column: 4 / 5;
+        width: 200px;
+        height: auto;
+       }
+
+    </style>
 </head>
 <body>
     <nav class="navbar">
         <ul>
+            <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="resume.html">Resume</a></li>
             <li><a href="project.html">Projects</a></li>
@@ -16,9 +36,12 @@
         </ul>
     </nav>
     <main>
-        <p>Hello welcome to my personal portfolio my name is MatchaT I am an aspiring artist who is currently working to build my portfolio.</p>
-        <img src="https://media.istockphoto.com/id/814013890/vector/matcha-green-tea-latte-cappuccino-drink-top-view.jpg?s=612x612&w=0&k=20&c=0nAGHAduZGIYQqGaDJmbZRfIKwz6BpyCFCo4sKOgJT0=" alt="matcha latte">
-        <p>I am currently working on more art projects alongside IT projects.</p>
+       <div class="head">
+        <h1>Matcha T</h1>
+        <p>Hello, welcome to my personal portfolio. My name is Matcha T. I am an aspiring artist and IT student who is currently working to build my portfolio.</p>
+       </div>
+       <img src="https://media.istockphoto.com/id/814013890/vector/matcha-green-tea-latte-cappuccino-drink-top-view.jpg?s=612x612&w=0&k=20&c=0nAGHAduZGIYQqGaDJmbZRfIKwz6BpyCFCo4sKOgJT0=" alt="matcha latte">
     </main>
+    
 </body>
 </html>
