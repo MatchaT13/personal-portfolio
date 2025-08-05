@@ -1,12 +1,12 @@
 [
     {
-        "title": "A",
-        "date": "August 5, 2025",
-        "content": "matchaaaaaa"
+        "title": "Light/Dark Mode",
+        "date": "August 4, 2025",
+        "content": "To set up the dark mode, I added extra CSS codes with the class darkMode to all the sections I wanted to change and mainly focused on the colours. Once I completed the CSS code, I tested it out by going to my HTML file and adding a darkMode class to the body tag. After i created a button with the id theme-switch, and I gave it two elements, the moon and sun icons. The icons were downloaded as svg files that way I could manipulate the colours later on. I then styled the button using CSS and made sure that only one icon showed depending on the current theme. I then created a dark.js file and referenced it within the head of each of my pages. The JavaScript would update and save the current theme when the button is clicked. I am still having trouble with the delay in the darkmode because it has to wait for the header and footer to be dynamically inserted before it runs. Though a minor issue, I would like to fix that in the near future."
     },
     {
-        "title": "B",
-        "date": "August 6, 2025",
-        "content": "Latteeee"
+        "title": "Dynamic Blog Section",
+        "date": "August 5, 2025",
+        "content": "First, I started by creating a JSON file that would store my blog post. I then used CSS to style the blogpost in the head of the blog.html and added a class named container and ID named blog-list to the main tag cause thats where the blog would be inserted later. I then created another JavaScript to dynamically insert the blogpost from the JSON file using the incomplete script given. Finally, to test if it works, I downloaded live server on VS Code and ran it there. In the future, I would like to add a page where I could have a user interface that would be able to add posts dynamically to the JSON file and later be published to the blog page. "
     }
 ]
