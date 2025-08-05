@@ -1,5 +1,8 @@
+const wait = setInterval(() => {
+    const themeSwitch = document.getElementById('theme-switch')
+    if(themeSwitch){
+
 let darkMode = localStorage.getItem('darkMode')
-const themeSwitch = document.getElementById('theme-switch')
 
 const enableDarkmode = () => {
     document.body.classList.add('darkMode')
@@ -21,3 +24,6 @@ themeSwitch.addEventListener("click", () => {
         disableDarkmode()
     }
 })
+clearInterval(wait);
+    }
+}, 1000);
