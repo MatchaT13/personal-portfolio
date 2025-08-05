@@ -1,4 +1,5 @@
 body{
+    background-color: #ffffff;
     margin: 0px;
 }
 main{
@@ -34,7 +35,44 @@ footer{
     margin: 0px;
     overflow: hidden;
 }
+body.darkMode{
+    background-color: rgb(13, 10, 53);
+    color: #ffffff;
+}
+body.darkMode .navbar ul{
+    background-color:rgb(21, 16, 85);
+    color: #ffffff;
+}
+body.darkMode .navbar a{
+    color: #ffffff;
+}
+body.darkMode footer{
+    background-color:rgb(21, 16, 85);
+    color: #ffffff;
+}
 
+#theme-switch{
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    border-radius: 50%;
+    background-color: mintcream;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#theme-switch svg{
+    fill: black;
+}
+#theme-switch svg:last-child{
+    display: none;
+}
+.darkMode #theme-switch svg:first-child{
+    display: none;
+}
+.darkMode #theme-switch svg:last-child{
+    display: block;
+}
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
